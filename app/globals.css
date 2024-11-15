@@ -13,9 +13,23 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: 'GeistVF'; /* Nombre que usarás en tu CSS */
+  src: url('/fonts/GeistVF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMonoVF'; /* Nombre que usarás en tu CSS */
+  src: url('/fonts/GeistMonoVF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'GeistVF', sans-serif; /* Fuente por defecto */
 }
