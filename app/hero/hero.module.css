@@ -1,0 +1,58 @@
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgba(110, 103, 103, 0.349);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.IconContainer {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgb(97, 223, 255), rgb(70, 144, 255));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text {
+  width: 60px;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.button:hover .IconContainer {
+  width: 150px;
+  border-radius: 40px;
+}
+
+.button:hover .text {
+  transform: translateX(10px);
+  width: 0;
+  margin-left: 0;
+  font-size: 0;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+
+
+
